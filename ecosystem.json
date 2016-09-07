@@ -25,7 +25,7 @@
       "ref": "origin/master",
       "repo": "https://github.com/alincode/koa-with-pm2-deploy-sandbox.git",
       "path": "/home/ubuntu/web",
-      "post-deploy": "export PATH='$PATH:/home/ubuntu/.nvm/versions/node/v4.4.7/bin' npm install && pm2 startOrRestart ecosystem.json --env dev",
+      "post-deploy": "export PATH='$PATH:/home/ubuntu/.nvm/versions/node/v4.4.7/bin' && npm install && pm2 startOrRestart ecosystem.json --env dev",
       "env": {
         "NODE_ENV": "dev"
       }
