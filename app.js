@@ -5,4 +5,4 @@ app.use(function*() {
   this.body = 'Hello World';
 });
 
-if (!module.parent) app.listen(8080);
+if (!module.parent) app.listen(80);
