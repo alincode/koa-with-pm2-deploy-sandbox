@@ -27,7 +27,8 @@
       "path": "/home/ubuntu/web",
       "post-deploy": "npm install && pm2 startOrRestart ecosystem.json --env dev",
       "env": {
-        "NODE_ENV": "dev"
+        "NODE_ENV": "dev",
+        "PATH": "$PATH:/home/ubuntu/.nvm/versions/node/v4.4.7/bin"
       }
     }
   }
