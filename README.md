@@ -17,3 +17,16 @@ nvm install v4.4.7
 nvm alias default 4.4.7
 npm install pm2 -g
 ```
+
+### path env
+
+```
+vi /etc/environment
+```
+
+or
+
+`vi ~/.bashrc`
+
+any nvm config move to `# If not running interactively, don't do anything` before.
+https://github.com/Unitech/pm2-deploy/issues/41
